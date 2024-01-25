@@ -10,3 +10,28 @@ body {
   overflow-x: hidden;
 }
 
+nav{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+text-decoration: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.nav-links{
+  display: flex;
+  flex-direction: row;
+ gap: 2rem;
+}
+
+.social-contain{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.logo-img{
+  width: 6rem;
+}
